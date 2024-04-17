@@ -1,0 +1,19 @@
+h1,h2,h3,h4,h5,h6{
+    color: darkred;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+
+.bg-header{
+    background: linear-gradient(white,transparent),url(./img/img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
