@@ -1,0 +1,33 @@
+body{
+    font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+    background-color: #ececec;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: darkred;
+    letter-spacing: 16px;
+    font-family: 'Nova Square';
+    font-weight: bolder;
+}
+
+p{
+    color: black;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover{
+    color: darkred;
+}
+
+
+.bg-header{
+    background-image:url(./img/mountains2.png),linear-gradient(white,transparent),url(./img/img1.jpg),linear-gradient(transparent,grey);
+    background-position: center;
+    background-size: cover;
+}
