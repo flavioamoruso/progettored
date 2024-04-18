@@ -5,9 +5,16 @@ body{
     background-color: #ececec;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1{
     color: darkred;
     letter-spacing: 16px;
+    font-family: 'Nova Square';
+    font-weight: bolder;
+}
+
+h2,h3,h4,h5,h6{
+    color: darkred;
+    letter-spacing: 6px;
     font-family: 'Nova Square';
     font-weight: bolder;
 }
@@ -31,3 +38,38 @@ a:hover{
     background-position: center;
     background-size: cover;
 }
+
+.border-bottom{
+    border-bottom: 3px solid darkred !important;
+}
+
+.icon-color{
+    color: darkred;
+}
+
+.style-button{
+    background-color: darkred;
+    border: none;
+    padding: 4px;
+    color: white;
+    width: 150px;
+}
+
+.bg-pini{
+    background-image: url(./img/trees2.png),linear-gradient(#ececec,transparent);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* .bg-single{
+    height: 600px;
+    margin-left: 100px;
+} */
+
+/* @media screen and(max-width:670px) {
+    .bg-single{
+        width: 10px;
+        height: 10px;
+    }
+} */
