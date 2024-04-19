@@ -62,14 +62,56 @@ a:hover{
     height: 100vh;
 }
 
-/* .bg-single{
-    height: 600px;
-    margin-left: 100px;
-} */
+.bg{
+    background-image: url(./img/landscape-975091_1920.jpg);
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid darkred;
+    border-radius: 90px;
+}
 
-/* @media screen and(max-width:670px) {
-    .bg-single{
-        width: 10px;
-        height: 10px;
+.img-pini{
+    background-image: url(./img/single.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.margin-team{
+    margin-top: 160px;
+    text-align: center;
+}
+
+@media screen and(max-width:667px){
+    .margin-team{
+        margin-top: 130px;
     }
-} */
+}
+
+.img-rounded{
+    border: 3px solid darkred;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.footer{
+    background-image: url(./img/other.png);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-dark-red{
+    background-color: darkred;
+    height: 300px;
+}
+
+@media screen and(max-width:657px){
+    .bg-dark-red{
+        height: 5000px;
+
+    }
+}
